@@ -73,7 +73,7 @@ const Home = () => {
                   </ul>
                 </div>
                 <span className="cuenta ">
-                  {count <= 1 ? count + " Item left" : count + " Items left"}
+                  {count === 1 ? count + " Item left" : count + " Items left"}
                 </span>
               </div>
             </div>
